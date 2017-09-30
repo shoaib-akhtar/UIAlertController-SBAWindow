@@ -5,7 +5,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/shoaib-akhtar/UIAlertController-SBAWindow"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Shoaib Akhtar" => "shoaib.akhtar1@live.com" }
-  s.social_media_url  = 'https://web.facebook.com/l094400'
   s.source       = { :git => "https://github.com/shoaib-akhtar/UIAlertController-SBAWindow.git", :branch => "master",
                      :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
