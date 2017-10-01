@@ -1,5 +1,6 @@
 //
 //  UIAlertController+SBAWindow.m
+//  Digital Manager
 //
 //  Created by Shoaib Akhtar on 23/04/2017.
 //  Copyright © 2017 dopaminetech. All rights reserved.
@@ -31,11 +32,7 @@
 
 @implementation UIAlertController (SBAWindow)
 
-- (void)show {
-    [self show:YES];
-}
-
-- (void)show:(BOOL)animated {
+- (void)showAnimated:(BOOL)animated {
     self.alertWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.alertWindow.rootViewController = [[UIViewController alloc] init];
     
