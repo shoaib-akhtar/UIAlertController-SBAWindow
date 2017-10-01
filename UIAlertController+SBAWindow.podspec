@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UIAlertController+SBAWindow"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "Light-weight category that adds -showAnimated method to UIAlertController. Presenting UIAlertControllers from anywhere in the window."
   s.homepage     = "https://github.com/shoaib-akhtar/UIAlertController-SBAWindow"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
